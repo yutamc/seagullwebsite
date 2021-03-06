@@ -1,0 +1,13 @@
+.btn--outline{
+    padding: 0.5em 1em;
+    background-color: transparent;
+    color: #2A93D5;
+    border: 1px solid #2A93D5;
+    border-radius: 5px;
+}
+
+.btn--outline:hover{
+    background-color: #2A93D5;
+    color: #fff;
+}
+
