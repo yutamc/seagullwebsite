@@ -1,7 +1,7 @@
 import './Navbar.css'
 import { GiHummingbird } from 'react-icons/gi'
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { FaTimes, FaBars } from 'react-icons/fa'
 import { IconContext }　from 'react-icons/lib'
 import Button from './Button'
@@ -45,7 +45,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/services' className="nav-links jp" onClick={closeMobileMenu}>
+                        <Link to='/teachers' className="nav-links jp" onClick={closeMobileMenu}>
                         先生から探す   
                         </Link>
                     </li>

@@ -1,0 +1,14 @@
+.features-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.image-container{
+   width: 50%;
+   height: 80%;
+}
+
+.features-image-right{
+    object-fit: contain;
+}
