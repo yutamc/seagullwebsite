@@ -10,4 +10,26 @@ export const featuresObjOne = {
 }
 
 
+export const threeCardsData = {
+    title:"新しいスタディスタイル",
+    subHeading:"Seagullだからこそできること",
+    cardDataOne:{
+        src: "./onlinelearning.jpg",
+        srcTwo: "./onlinelearningTwentyOne.jpg",
+        alt:"lol",
+        title:"手軽に聞ける",
+    },
+    cardDataTwo:{
+        src: "./onlinelearningtwo.jpg",
+        srcTwo: "./onlinelearningtwoTwentyOne.jpg",
+        alt:"lol",
+        title:"ジャンルレス",
+    },
+    cardDataThree:{
+        src: "./onlinelearningthree.jpg",
+        srcTwo: "./onlinelearningthreeTwentyOne.jpg" ,
+        alt:"lol",
+        title:"誰でも使える",
+    }
 
+}

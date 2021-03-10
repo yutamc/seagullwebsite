@@ -1,0 +1,69 @@
+.threeCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: center;
+}
+
+.subHeading{
+    text-align: center;
+    color: #949494;
+    letter-spacing: 0.5em;
+}
+
+@media (max-width: 768px){
+    .title-container{
+        padding: 40px;
+    }
+    .title{
+        font-size: 30px;
+    }
+
+    .threeCardsContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .title{
+        padding: 50px;
+        font-size: 36px;
+    }
+
+    .threeCardsContainer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .title{
+        padding: 80px;
+        font-size: 48px;
+    }
+    
+    .threeCardsContainer{
+        padding-bottom: 80px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .title-container{
+        padding: 100px;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .threeCardsContainer{
+        padding-bottom: 100px;
+    }
+    
+}
